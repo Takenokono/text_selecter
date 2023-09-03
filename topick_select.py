@@ -20,7 +20,7 @@ layout = [  [sg.Text('Enter your text',font=font)],
 
 
 # Create the Window
-window = sg.Window('TOPIC selecter!', layout, size=(800,800))
+window = sg.Window('TOPIC selector!', layout, size=(800,800))
 # Event Loop to process "events" and get the "values" of the inputs
 while True:
     # read contents
