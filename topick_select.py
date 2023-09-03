@@ -8,12 +8,14 @@ import random
 # テーマ決め
 sg.theme('DarkAmber') 
 
+font = ('Arial', 20)
+
 # All the stuff inside your window.
-layout = [  [sg.Text('Enter your text')],
-            [sg.Multiline(size=(50,10),key='input')],
+layout = [  [sg.Text('Enter your text',font=font)],
+            [sg.Multiline(size=(50,10),key='input',font=font)],
             [sg.Button('Ok'), sg.Button('Cancel')],
-            [sg.Text('picked up Topics!!!')],
-            [sg.Multiline(size=(50,10),key='output')]
+            [sg.Text('picked up Topics!!!',font=font)],
+            [sg.Multiline(size=(50,10),key='output',font=font)]
             ]
 
 
