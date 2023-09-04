@@ -31,7 +31,7 @@ while True:
 
     # read contents
     multiline_text = values['input']
-    input_lines = multiline_text.split()
+    input_lines = multiline_text.split('\n')
     # pick up one topic
     output_line = input_lines[random.randint(0,len(input_lines)-1)]
 
